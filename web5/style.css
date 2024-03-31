@@ -1,13 +1,12 @@
 body{
-background-color:Black;
+background-image:url("slike/pozadina.jpg");
 text-align:center;
 }
+.text {
 
-header {
-padding: 70px;
-text-align: center;
-color: white;
-background:linear-gradient(red,white,black); 
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: large;
+color: black;
 }
  #sna
  {
@@ -15,12 +14,12 @@ align-items: center;
 width:250px;
 height:100px;
 background-color:red;
-box-shadow:15px 15px 10px white;
+box-shadow:15px 15px 10px rgb(0, 0, 0);
 border-radius:25px;
   }
 
 .navbar{
-background-color:white;
+background-color:rgb(12, 30, 161);
   list-style-type: none;
   margin: 0;
   padding: 0px;
@@ -40,26 +39,26 @@ float: left;
 .navbar a:hover {
     
     background-color:black;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 a.bold {
     font-weight: bold;
-     border-bottom: 3px solid rgb(245, 242, 242);
+     border-bottom: 3px solid rgb(0, 0, 0);
 }
  p {
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: justify;
-    font-family: verdana;
-    font-size: 80%;
+    font-family: open sans;
+    font-size: 100%;
  }
  h1{
   text-align:center;
-  color:white;
+  color:rgb(0, 0, 0);
   font-size: 40px;
  }
  h2{
   text-align:left;
-  color: white;
+  color: rgb(0, 0, 0);
 
  }
  #tabela
@@ -68,13 +67,13 @@ a.bold {
    border:4;
     background-color:gray;
     text-align:center;
-box-shadow:20px 15px 15px white;
+box-shadow:20px 15px 15px rgb(0, 0, 0);
 
 
  }
  #tabela tr{
   background-color: red;
-   color:White;
+   color:rgb(0, 0, 0);
    font-size:25px;
   text-align:center;
 
@@ -83,7 +82,7 @@ box-shadow:20px 15px 15px white;
  {
   size: 30px;
   text-align:center;
-  color:White;
+  color:rgb(0, 0, 0);
  }
 
  .navbar .active { 
@@ -125,13 +124,26 @@ box-shadow:15px 15px 10px red;
             {
               border:solid 1px;
          
-              backgroun:black;
+              background:black;
               transition:width 3s, height 3s,background 4s;
             }
         .pr:hover
             {
-              width:1500px;
-              height:200px;
+              width:60%;
+              height:50%;
               font-size:150%;
-              background:white;
+              background:rgb(0, 0, 0);
 
+            }
+            .fa-twitter {
+              background: #55ACEE;
+            
+            }
+            .fa-instagram {
+              background: #125688;
+              color: white;
+            }
+            .fa-youtube {
+              background: #bb0000;
+              color: white;
+            }
